@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background: linear-gradient(to right,#F0F2F0,#c0ddff);
+height: 2000px;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    font-family: sans-serif;
+margin-left: 50px;
+margin-top: 30px;
+padding: 10px;
+width: 90%;
+justify-content: center;
+border-radius: 5px;
+margin-right: 80px;
+background-color: rgb(105, 170, 235);
+
+}
+.nav li {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    margin-top: 40px;
+    padding: 10px 10px 10px 10px;
+
+}
+.nav li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.search{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding: 5px;
+    width: 250px;
+}
+.search:focus{
+    outline: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 60px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    position: relative;
+    height: 300px;
+    margin-right: 80px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    border: none;
+}
+.img{
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    right: 40px;
+    border-radius: 20px;
+}
+.p{
+    width: 400px;
+position: absolute;
+right: 400px;
+top: 80px;
+}
+h1{
+    position: absolute;
+    right: 400px;
+    top: 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px gray;
+    transform: scale(1.02);
+    background: linear-gradient(to right, #1c92d2,#f2fcfe);
+}
+.a{
+    position: absolute;
+    bottom: 10px;
+    right: 400px;
+}
+.card2{
+background-color: #ffffff;
+margin-right: 1100px;
+margin-top: -1640px;
+width: 350px;
+height: 510px;
+position: relative;
+border-radius: 6px;
+}
+.img2{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 70px;
+    top: 40px;
+
+}
+.p2{
+    width: 300px;
+    position: absolute;
+    top: 270px;
+    right: 30px;
+}
+
+.next,.previous{
+    margin-top: 470px;
+    margin-right: 100px;
+    width: 30px;
+    border: none;
+    background: transparent;
+    font-size: larger;
+}
+.next:hover{
+    background-color: #51a2ff;
+    border-radius: 2px;
+}
+.previous:hover{
+    background-color: #51a2ff;
+    border-radius: 2px;
+}
+.slider{
+    margin-right:160px;
+    margin-top: 40px;
+    width: 1200px;
+    border-radius: 10px;
+    position: relative;
+}
+.slideup{
+position: absolute;
+left: 200px;
+top: 390px;
+font-size:100px;
+border: none;
+color: rgb(100, 103, 109);
+background: transparent;
+}
+.slidedown{
+    position: absolute;
+right: 200px;
+top: 390px;
+font-size:100px;
+border: none;
+color:  rgb(100, 103, 109);
+background: transparent;
+}
+
+.ejare{
+background-color: #ffffff;
+margin-right: 1100px;
+margin-top: 50px;
+width: 350px;
+height: 510px;
+position: relative;
+border-radius: 6px;
+}
+.ejareimg{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 70px;
+    top: 40px;
+
+}
+.ejarebtn{
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    height: 50px;
+right: 120px;
+border: none;
+background-color: #51a2ff;
+color: white;
+border-radius: 6px;
+
+}
+.ejarematn{
+    position: absolute;
+    top: 280px;
+    width: 280px;
+    right: 40px;
+}
+.footer{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    margin-right: 1050px;
+  position: fixed; bottom: 0;
+  padding: 10px;
+  border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    margin-top: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: #51a2ff;
+    font-size: larger;
+}
+/* آیکون واتس‌اپ (چهارم) */
+.footer li:nth-child(4) .bi-whatsapp:hover{ color:#25D366; font-size:20px; }
+
+/* تلگرام (پنجم) */
+.footer li:nth-child(5) .bi-telegram:hover{ color:#0088cc; font-size:20px; }
+
+/* اینستا (ششم) */
+.footer li:nth-child(6) .bi-instagram:hover{ color:#C13584; font-size:20px; }
+.darkmode{
+    position: fixed; top: 0;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    border: none;
+    background-color: #51a2ff;
+    border-top-right-radius:0px ;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 2;
+    color: rgb(255, 255, 0);
+}
+.scroll{
+    position:fixed; bottom : 0;
+    padding: 15px;
+    border: none;
+    background-color:#51a2ff;
+    color: white;
+    border-radius: 6px;
+}
